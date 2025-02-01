@@ -5,16 +5,18 @@
 include current-theme.conf
 # END_KITTY_THEME
 
-font_size 12.0
+font_size 14.0
 cursor_trail 10
 cursor_trail_decay 0.1 0.4
 
 # modify_font cell_width 80%
-modify_font cell_height 110%
+modify_font cell_height 100%
 # modify_font baseline 3
 
+disable_ligatures always
+
 # BEGIN_KITTY_FONTS
-font_family      family="MonaspiceAr Nerd Font"
+font_family      family="IosevkaTerm Nerd Font"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
